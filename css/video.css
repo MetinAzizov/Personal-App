@@ -9,7 +9,7 @@ html {
 }
 section.card {
   background: #000046;
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046); 
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
   background: linear-gradient(to right, #1100ff, #02751b);
   border-radius: 24px 24px 24px 48px;
   padding: 48px 48px 48px 308px;
@@ -19,12 +19,13 @@ section.card {
   flex-direction: row;
   align-self: flex-start;
   position: relative;
-  box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+  box-shadow: 5px 0 0 0 rgba(204, 204, 204, 0.3),
+    -5px 0 0 0 rgba(204, 204, 204, 0.3), 0 5px 0 0 rgba(204, 204, 204, 0.3);
 }
 section.card .text-content {
   display: flex;
   flex-direction: column;
-  width:calc(60vw - 192px);
+  width: calc(60vw - 192px);
 }
 section.card .text-content h3 {
   margin: 0;
@@ -64,9 +65,9 @@ section.card .visual img {
 article {
   margin: auto;
   display: block;
-  width:calc(60vw + 248px);
-  max-width:calc(920px + 248px);
-  min-width:calc(640px + 248px); 
+  width: calc(60vw + 248px);
+  max-width: calc(920px + 248px);
+  min-width: calc(640px + 248px);
 }
 @media all and (max-width: 1100px) {
   body {
@@ -94,7 +95,7 @@ article {
     border-radius: 24px;
   }
   section.card .text-content h3 {
-    max-width:calc(100% - 150px);
+    max-width: calc(100% - 150px);
     font-size: 1em;
   }
   section.card .text-content p,
@@ -108,8 +109,8 @@ article {
     left: auto;
     border-radius: 50%;
   }
-  section.card .visual img{
+  section.card .visual img {
     width: 100%;
     height: auto;
-    }
+  }
 }
